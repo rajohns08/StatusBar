@@ -12,6 +12,7 @@
 		7F344C731E9817D100A0A2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F344C711E9817D100A0A2EB /* Main.storyboard */; };
 		7F344C751E9817D100A0A2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F344C741E9817D100A0A2EB /* Assets.xcassets */; };
 		7F344C781E9817D100A0A2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F344C761E9817D100A0A2EB /* LaunchScreen.storyboard */; };
+		7F344C801E981AF100A0A2EB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F344C7F1E981AF100A0A2EB /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7F344C741E9817D100A0A2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F344C771E9817D100A0A2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F344C791E9817D100A0A2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F344C7F1E981AF100A0A2EB /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7F344C6D1E9817D100A0A2EB /* AppDelegate.swift */,
 				7F344C6F1E9817D100A0A2EB /* ViewController.swift */,
+				7F344C7F1E981AF100A0A2EB /* ViewController2.swift */,
 				7F344C711E9817D100A0A2EB /* Main.storyboard */,
 				7F344C741E9817D100A0A2EB /* Assets.xcassets */,
 				7F344C761E9817D100A0A2EB /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				7F344C701E9817D100A0A2EB /* ViewController.swift in Sources */,
 				7F344C6E1E9817D100A0A2EB /* AppDelegate.swift in Sources */,
+				7F344C801E981AF100A0A2EB /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StatusBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Visa.StatusBar;
+				PRODUCT_BUNDLE_IDENTIFIER = rajohns.StatusBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +278,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StatusBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Visa.StatusBar;
+				PRODUCT_BUNDLE_IDENTIFIER = rajohns.StatusBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

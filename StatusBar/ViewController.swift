@@ -3,23 +3,16 @@
 //  StatusBar
 //
 //  Created by Johns, Robert on 4/7/17.
-//  Copyright © 2017 Visa. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    var newWindow: UIWindow?
+    
+    @IBAction func createWindowButtonTapped(_ sender: UIButton) {
+        newWindow = UIWindow(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height))
+        newWindow?.rootViewController = ViewController2()
+        newWindow?.makeKeyAndVisible()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
